@@ -3,7 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Soy un apasionado desarrollador full stack con un don para la elaboración de aplicaciones web robustas y escalables. Con 5 años de experiencia práctica, he perfeccionado mis habilidades en tecnologías front-end como React y Next.js, así como en tecnologías back-end como Node.js, MySQL, PostgreSQL y MongoDB. Mi objetivo es aprovechar mi experiencia para crear soluciones innovadoras que impulsen el crecimiento empresarial y ofrezcan experiencias de usuario excepcionales.`;
+export const HERO_CONTENT = `Soy un apasionado desarrollador Full Stack en busca de nuevas oportunidades. Me encanta crear aplicaciones web innovadoras y funcionales. Estoy comprometido en aprender continuamente y en ofrecer soluciones que mejoren la experiencia del usuario. Mi objetivo es colaborar en proyectos desafiantes y aportar mi entusiasmo y creatividad. Si estás buscando a alguien motivado para contribuir a tu próximo proyecto, no dudes en ponerte en contacto.
+
+`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
