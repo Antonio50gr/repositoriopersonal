@@ -7,7 +7,7 @@ export const HERO_CONTENT = `Soy un apasionado desarrollador Full Stack en busca
 
 `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Soy un desarrollador Full Stack entusiasta con una fuerte pasión por la tecnología y el desarrollo web. Me dedico a aprender y aplicar las últimas herramientas y tecnologías para crear soluciones funcionales y atractivas. Siempre en busca de desafíos nuevos y oportunidades para crecer, estoy comprometido con el desarrollo de aplicaciones que sean intuitivas y eficaces. Mi enfoque es ofrecer un trabajo de calidad y colaborar de manera efectiva para alcanzar objetivos comunes.`;
 
 export const EXPERIENCES = [
   {
