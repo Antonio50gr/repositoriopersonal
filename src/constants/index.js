@@ -3,11 +3,21 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Soy un apasionado desarrollador Full Stack en busca de nuevas oportunidades. Me encanta crear aplicaciones web innovadoras y funcionales. Estoy comprometido en aprender continuamente y en ofrecer soluciones que mejoren la experiencia del usuario. Mi objetivo es colaborar en proyectos desafiantes y aportar mi entusiasmo y creatividad. Si estás buscando a alguien motivado para contribuir a tu próximo proyecto, no dudes en ponerte en contacto.
+export const HERO_CONTENT = `Soy un desarrollador Full Stack en busca de nuevas 
+oportunidades. Me encanta crear aplicaciones web innovadoras y funcionales. 
+Estoy comprometido en aprender continuamente y en ofrecer soluciones que mejoren 
+la experiencia del usuario. Mi objetivo es colaborar en proyectos desafiantes y
+ aportar mi entusiasmo y creatividad. Si estás buscando a alguien motivado para 
+ contribuir a tu próximo proyecto, no dudes en ponerte en contacto.`;
 
-`;
-
-export const ABOUT_TEXT = `Soy un desarrollador Full Stack entusiasta con una fuerte pasión por la tecnología y el desarrollo web. Me dedico a aprender y aplicar las últimas herramientas y tecnologías para crear soluciones funcionales y atractivas. Siempre en busca de desafíos nuevos y oportunidades para crecer, estoy comprometido con el desarrollo de aplicaciones que sean intuitivas y eficaces. Mi enfoque es ofrecer un trabajo de calidad y colaborar de manera efectiva para alcanzar objetivos comunes.`;
+export const ABOUT_TEXT = `Mi nombre es Antonio García Rodríguez. Estudié 
+Desarrollo de Aplicaciones Web, además de Sistemas Microinformáticos y Redes. Me 
+gusta la tecnología y el desarrollo web. Me dedico a aprender continuamente y a
+ utilizar las últimas herramientas y tecnologías para crear soluciones útiles y 
+ atractivas. Siempre estoy en busca de desafíos nuevos y oportunidades para crecer,
+  estoy comprometido con el desarrollo de aplicaciones que sean eficaces. Mi objetivo 
+  es ofrecer un trabajo de calidad y colaborar de manera efectiva para alcanzar 
+  objetivos comunes.`;
 
 export const EXPERIENCES = [
   {
