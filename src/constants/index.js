@@ -52,11 +52,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Juego tres en raya",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "JavaScript", "CSS"],
+    link: "https://eljardindelsabor.vercel.app/",
   },
   {
     title: "Task Management App",
