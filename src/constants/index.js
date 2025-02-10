@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.jpg";
+import project2 from "../assets/projects/project2.jpg";
+import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project4.jpg";
 
 export const HERO_CONTENT = `Soy un desarrollador Full Stack en busca de nuevas 
 oportunidades. Me encanta crear aplicaciones web innovadoras y funcionales. 
@@ -55,9 +55,9 @@ export const PROJECTS = [
     title: "Juego tres en raya",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Juego clásico del tres en raya desarrollado con React, detección automática de ganador o de empate con opción de reinicio de partida",
     technologies: ["React", "JavaScript", "CSS"],
-    link: "https://eljardindelsabor.vercel.app/",
+    link: "https://tresenraya-agr.vercel.app/",
   },
   {
     title: "Task Management App",
