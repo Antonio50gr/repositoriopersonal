@@ -3,8 +3,8 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/project4.jpg";
 
-export const HERO_CONTENT = `Soy un desarrollador Full Stack en busca de nuevas 
-oportunidades. Me encanta crear aplicaciones web innovadoras y funcionales. 
+export const HERO_CONTENT = `Soy un desarrollador Full Stack.
+ Me encanta crear aplicaciones web innovadoras y funcionales. 
 Estoy comprometido en aprender continuamente y en ofrecer soluciones que mejoren 
 la experiencia del usuario. Mi objetivo es colaborar en proyectos desafiantes y
  aportar mi entusiasmo y creatividad. Si estás buscando a alguien motivado para 
@@ -60,29 +60,30 @@ export const PROJECTS = [
     link: "https://tresenraya-agr.vercel.app/",
   },
   {
-    title: "Task Management App",
+    title: "Ferrari World",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Sitio web con temática de Ferrari, desarrollado con React. Enfocado en ofrecer una experia con una interfaz elegante..",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
   phoneNo: "+34 633 22 74 30",
   email: "angaro1926@gmail.com",
+  linkedin: "https://www.linkedin.com/in/antoniogarciarodriguez-/"
 };
