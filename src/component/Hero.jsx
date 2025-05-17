@@ -49,7 +49,7 @@ const Hero = () => {
             variants={container(1.2)}
             initial="hidden"
             animate="visible"
-            href="/CV-Antonio-Garcia.pdf"
+            href="/AntonioGR.pdf"
             download
             className="mt-4 inline-block rounded-xl border border-yellow-400 bg-neutral-900 px-6 py-3 text-xl font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
           >
