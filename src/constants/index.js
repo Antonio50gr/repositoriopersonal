@@ -3,21 +3,15 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/project4.jpg";
 
-export const HERO_CONTENT = `Soy un desarrollador Full Stack.
- Me encanta crear aplicaciones web innovadoras y funcionales. 
-Estoy comprometido en aprender continuamente y en ofrecer soluciones que mejoren 
-la experiencia del usuario. Mi objetivo es colaborar en proyectos desafiantes y
- aportar mi entusiasmo y creatividad. Si estás buscando a alguien motivado para 
- contribuir a tu próximo proyecto, no dudes en ponerte en contacto.`;
+export const HERO_CONTENT = `Soy un desarrollador Full Stack al le gusta utilizar una amplia variedad de tecnologías y temas. 
+Siempre estoy aprendiendo de forma constante. Mi objetivo es colaborar en proyectos desafiantes aportando entusiasmo y creatividad. 
+Estoy abierto a nuevas oportunidades y colaboraciones que impulsen el crecimiento mutuo.`;
 
-export const ABOUT_TEXT = `Mi nombre es Antonio García Rodríguez. Estudié 
-Desarrollo de Aplicaciones Web, además de Sistemas Microinformáticos y Redes. Me 
-gusta la tecnología y el desarrollo web. Me dedico a aprender continuamente y a
- utilizar las últimas herramientas y tecnologías para crear soluciones útiles y 
- atractivas. Siempre estoy en busca de desafíos nuevos y oportunidades para crecer,
-  estoy comprometido con el desarrollo de aplicaciones que sean eficaces. Mi objetivo 
-  es ofrecer un trabajo de calidad y colaborar de manera efectiva para alcanzar 
-  objetivos comunes.`;
+export const ABOUT_TEXT = `Me llamo Antonio García Rodríguez y cuento con formación en Desarrollo de Aplicaciones Web, además de Sistemas Microinformáticos y Redes.
+Me dedico a aprender constantemente y a utilizar las herramientas más actuales para crear soluciones útiles y con un diseño atractivo. 
+Busco afrontar nuevos desafíos y crecer profesionalmente, comprometido con el desarrollo de aplicaciones eficaces y de calidad. 
+`;
+
 
 export const EXPERIENCES = [
   {
@@ -63,8 +57,9 @@ export const PROJECTS = [
     title: "Ferrari World",
     image: project2,
     description:
-      "Sitio web con temática de Ferrari, desarrollado con React. Enfocado en ofrecer una experia con una interfaz elegante..",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Sitio web con temática de Ferrari, desarrollado con React. Enfocado en ofrecer una experiencia con una interfaz elegante.",
+    technologies: ["HTML", "CSS", "React", "Javascript"],
+    link: "https://ferrariworld.vercel.app/",
   },
   // {
   //   title: "Portfolio Website",

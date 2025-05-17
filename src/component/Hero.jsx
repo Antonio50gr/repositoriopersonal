@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 bg-transparent">
       <div className="flex flex-col lg:flex-row">
         {/* Contenedor del texto */}
-        <div className="w-full lg:w-[40%] flex flex-col items-center lg:items-start bg-transparent">
+        <div className="w-full lg:w-[40%] flex flex-col items-center lg:items-start bg-transparent pb-10 lg:pb-0">
           <motion.h1
             variants={container(0)}
             initial="hidden"
@@ -35,14 +35,16 @@ const Hero = () => {
             Full Stack Developer
           </motion.span>
 
-          <motion.p  
+          <motion.div  
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="my-2 max-w-xl py-6 font-light tracking-tighter text-2xl bg-transparent"
+            className="my-6 max-w-xl text-2xl font-light tracking-tighter bg-transparent"
           >
-            {HERO_CONTENT}
-          </motion.p>
+            {HERO_CONTENT.split('\n').map((line, i) => (
+              <p key={i} className="mb-4">{line.trim()}</p>
+            ))}
+          </motion.div>
 
           {/* Botón para descargar el CV */}
           <motion.a
@@ -51,7 +53,7 @@ const Hero = () => {
             animate="visible"
             href="/AntonioGR.pdf"
             download
-            className="mt-4 inline-block rounded-xl border border-yellow-400 bg-neutral-900 px-6 py-3 text-xl font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
+            className="mt-4 mb-10 lg:mb-0 inline-block rounded-xl border border-yellow-400 bg-neutral-900 px-6 py-3 text-xl font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-black"
           >
             Descargar CV
           </motion.a>
